@@ -1,0 +1,205 @@
+/* resets all default */
+body, div, p, h1, h2, h3, h4, h5, h6, ul, li {margin:0; padding:0; font-family:Arial, Helvetica, sans-serif;}
+
+body { background:#ebebeb; }
+
+/* <<<<================== Admin View CSS =================>>>> */
+/* Admin login css */
+.HR_admin_login { background:#C3C3C3; border-bottom:5px solid #E5E5E5; border-top:5px solid #E5E5E5; border-left:5px solid #E5E5E5; border-right:5px solid #E5E5E5; border-top-left-radius:10px; border-top-right-radius:10px; border-bottom-left-radius:10px; border-bottom-right-radius:10px; box-shadow: 0px 0px 5px #6778A7; height:400px; margin: 150px auto 0 auto; width:350px; }
+#HR_welcome { font-family:Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:26px; font-weight:bold; text-align:center; line-height:50px; text-shadow: 0px 0px 2px #6778A7; margin:30px 50px 0 50px; border-top: 5px solid #E5E5E5; border-bottom: 5px solid #E5E5E5; }
+#HR_subtitle { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#FFFFFF; text-align:center; padding-top:10px; }
+#HR_login { color:#666666; font-family:Arial, sans-serif; font-size:14px; font-style:italic; margin: 40px 0 0 40px; }
+.HR_username { border-bottom:2px solid #FFFFFF; border-top:2px solid #999999; border-left:2px solid #999999; border-right:2px solid #FFFFFF; color:#999999; font-size:14px; font-style:italic; height:25px; width:250px; padding: 2px 0 0 5px; margin: 10px 0 10px 0; }
+.HR_password { border-bottom:2px solid #FFFFFF; border-top:2px solid #999999; border-left:2px solid #999999; border-right:2px solid #FFFFFF; color:#999999; font-size:14px; font-style:italic; height:25px;  width:250px; padding: 2px 0 0 5px; margin-top:10px; }
+#HR_signin_button { background:#333333; border-top:2px solid #999999; border-right:2px solid #999999; border-bottom:2px solid #000; border-left:2px solid #000; color:#FFF; font-size:14px; font-weight:600; height:35px; width:70px; margin-top:20px; }
+#HR_signin_button:hover { box-shadow: -2px -1px 2px #666666; cursor:pointer; }
+
+/* Dashboard */
+.HR_contentcontainer { margin: 50px auto 0 auto; width:1080px; min-height:550px; }
+.HR_sidebarwrapper { width:150px; height:500px; top:30px; position:relative; z-index:150; left:0; float:left; margin-right:5px; }
+.HR_admincontainer { border-radius:5px; background:#FFFFFF; top:0px; left:0px; height:40px; min-width:120px; z-index:200px; position:relative; box-shadow: 0px 0px 2px #666666; text-align:center; }
+.HR_admincontainer a { font-family:Verdana, Arial, Helvetica, sans-serif; color:#447294; font-size:14px; text-decoration:none; line-height:30px; margin:10px; }
+.HR_admincontainer a:hover { text-decoration:underline; }
+.HR_admincontainer p { float:right; position:relative; color:#447294; padding:5px 5px 18px 5px; margin-right:5px; }
+.HR_admincontainer p:hover, .HR_admincontainer_p_selected { background-color:#447294; color:#FFFFFF; box-shadow: 0px 0px 2px #666666; cursor:pointer; }
+.HR_signoutdropdown { height:35px; width:110px; position:relative; z-index:200; background:#447294; left:35px; top:0px; border-top-left-radius:5px; border-bottom-left-radius:5px; border-bottom-left-radius:5px; border-bottom-right-radius:5px; box-shadow: 0px 0px 2px #666666; background-image:url(../images/signout%20icon.png); background-repeat:no-repeat; }
+.HR_signoutdropdown:hover { cursor:pointer; }
+.HR_signoutdropdown a { color:#FFFFFF; text-decoration:none; font-family:Verdana, Arial, Helvetica, sans-serif; color:#FFF; font-size:14px; margin-left:40px; line-height:35px; }
+/* jobs menu */
+.HR_dashboardmenu { width:80px; height:200px; top:80px; position:absolute; z-index:150; left:35px; }
+.HR_dashboardmenu .HR_menu { list-style-type:none; font-size:12px; line-height:135px; }
+.HR_dashboardmenu .HR_menu a { width:100px; margin: 0 0 0 20px;  height:70px; text-decoration:none; }
+.HR_dashboardmenu .HR_menu a.HR_jobs { display:block; background-image:url(../images/spritemenu.png); background-repeat:no-repeat;  background-position:5px 0px; color:#447294;  text-decoration:none; text-align:left;  position:absolute; text-indent:23px; left:-15px; }
+.HR_dashboardmenu .HR_menu a:hover.HR_jobs{ background-image:url(../images/spritemenu.png); background-position:-95px 0px; }
+
+
+.HR_submenu { position:absolute; background-color:#447294; z-index:100; width:230px; left:90px; top:2px; border-radius:8px; box-shadow: 0px 0px 2px #666666; }
+.HR_submenu .submenu { list-style-type:none; height:60px; float:left; line-height:76px; }
+.HR_submenu .submenu a#HR_postjobs { display:block; background-image:url(../images/spritesubmenu.png); background-repeat:no-repeat; background-position:-1px 0px; color:#FFF; text-indent:-10px; margin:5px 0 0 40px;  font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; }
+.HR_submenu .submenu a#HR_managejobs { display:block; background-image:url(../images/spritesubmenu.png); background-repeat:no-repeat; background-position:-1px -91px; color:#FFF; text-indent:-15px; margin:5px 0 0 -10px;  font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; }
+.HR_submenu .submenu a:hover#HR_postjobs { display:block; background-image:url(../images/spritesubmenu.png); background-repeat:no-repeat; background-position:-121px 0px; color:#FFF; text-indent:-10px; margin:5px 0 0 40px; }
+.HR_submenu .submenu a:hover#HR_managejobs { display:block; background-image:url(../images/spritesubmenu.png); background-repeat:no-repeat; background-position:-120px -91px; color:#FFF; text-indent:-15px; margin:5px 0 0 -10px; }
+#HR_fillupcontent { float:left; position:relative; background:#FBFBFB; width:920px; min-height:500px; right:0px; top:30px; background:#FFFFFF; z-index:50; border-radius:5px; border-bottom:1px solid #CCCCCC;border-top:1px solid #999999; border-left:1px solid #999999; border-right:1px solid #CCCCCC;}
+/* reports menu */
+.HR_dashboardmenu .HR_menu a.HR_reports { display:block; background-image:url(../images/spritemenu.png); background-repeat:no-repeat;  background-position:5px -80px; color:#447294;  text-decoration:none; text-align:left;  position:absolute; text-indent:16px; left:-15px; top:100px; }
+.HR_dashboardmenu .HR_menu a:hover.HR_reports { background-image:url(../images/spritemenu.png); background-position:-95px -80px; }
+.HR_submenu2 { position:absolute; background-color:#447294; z-index:100; width:110px; left:90px; top:98px; border-radius:8px; box-shadow: 0px 0px 2px #666666; }
+.HR_submenu2 .submenu2 { list-style-type:none; height:60px; float:left; line-height:78px; }
+.HR_submenu2 .submenu2 a { display:block; background-image:url(../images/spritesubmenu.png); background-repeat:no-repeat; background-position:-1px -181px; color:#FFF; text-indent:-15px; margin:5px 0 0 35px;  font-family:Verdana, Arial, Helvetica, sans-serif; font-size:10px; }
+.HR_submenu2 .submenu2 a:hover { display:block; background-image:url(../images/spritesubmenu.png); background-repeat:no-repeat; background-position:-119px -181px; color:#FFF; text-indent:-15px; margin:5px 0 0 35px; }
+
+
+/*skill catalog*/
+.HR_dashboardmenu .HR_menu a.HR_skills { display:block; background-image:url(../images/spritemenu.png); background-repeat:no-repeat;  background-position:5px -150px; color:#447294;  text-decoration:none; text-align:left;  position:absolute;  left:-15px; top:200px; }
+.HR_dashboardmenu .HR_menu a:hover.HR_skills { background-image:url(../images/spritemenu.png); background-position:-97px -150px; }
+
+
+/* post job */
+#HR_backbutton a { position:absolute; display:block; background-image:url(../images/spritebackmenu.png); background-repeat:no-repeat; background-position:5px 0px; top:80px; height:60px; width:70px; line-height:140px; text-decoration:none; text-align:center; font-size:14px; color:#447294; left:35px; }
+#HR_backbutton a:hover { background-image:url(../images/spritebackmenu.png); background-position:-70px 0px; }
+.HR_contentwrap { position:relative; width:775px; min-height:390px; margin: 30px auto 0 auto; }
+.currDate { color:#333333; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; }
+#HR_fillupcontent label { color:#333333; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; padding-right:10px; }
+#HR_fillupcontent p { margin-bottom:10px; }
+.HR_contentwrap p { color:#FF0000; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; padding:0; }
+#submitpost { background:#333333; border-top:2px solid #999999; border-right:2px solid #999999; border-bottom:2px solid #000; border-left:2px solid #000; color:#FFF; font-size:14px; font-weight:600; height:35px; width:80px; margin:10px 0 0 10px; }
+#submitpost:hover { box-shadow: -2px -1px 2px #666666; cursor:pointer; }
+
+/* manage job specifically the search job */
+#hr_search_job_form label { color:#447294; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; padding-right:10px; }
+
+/* success page */
+.hr_successprompt { margin:10px 0 0 10px; }
+.hr_successprompt p { color:#447294; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; }
+.hr_successprompt a { font-family:Verdana, Arial, Helvetica, sans-serif; color:#447294; font-size:14px; text-decoration:none; }
+.hr_successprompt a:hover { text-decoration:underline; }
+
+/* view job */
+.HR_contentwrapper { width:775px; min-height:390px; margin: 30px auto 0 auto; }
+.HR_contentwrapper p { color:#333333; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; }
+#HR_titledesign { color:#447294; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; }
+.hr_view_job_box { border-radius:10px; margin-left:2em; margin-top:1em; }
+p.hr_view_job_title { color:#447294; font-size:18px; }
+.hr_job_details { width:330px; margin-top:3em;  }
+.italize_text { color:grey; font-size:12px; float:right;  }
+.hr_view_applicant_header { padding:1em 0 0 2em; }
+
+/* <<<<================== Client View CSS =================>>>> */
+
+/* front log in */
+.hr_headboard { background:#447294; height:200px; width:100%; min-width:960px; position:absolute; top:0; z-index:-1; padding:0px; }
+#HR_frontwelcome { font-family:Verdana, Arial, Helvetica, sans-serif; color:#FFFFFF; font-size:36px; font-weight:bold; text-indent:350px; line-height:50px; text-shadow: 0px 0px 2px #6778A7; margin-top:25px; text-decoration:underline; }
+#HR_frontsubtitle { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; color:#FFFFFF; text-indent:350px; }
+.hr_front_register_p { float:right;   border:1px solid #8FBCDB; border-radius:5px; height:35px; width:70px; line-height:30px; text-align:center; margin-right:11.5em; margin-top:0.3em; }
+.hr_front_register_p a { background:#ebebe5; text-decoration:none; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#447294; padding: 0 0 0 1.3em;}
+.hr_front_register_p a:hover { text-decoration:underline; }
+
+.hr_front_login_div { background:#ebebe5; border:5px solid #FFF; border-radius:10px; box-shadow: 0px 0px 5px #333333; height:250px; margin:180px auto 280px auto; width:400px; z-index:5; }
+#HR_frontlogin { color:#666666; font-family:Arial, sans-serif; font-size:14px; font-style:italic; margin: 20px 0 0 70px; }
+.HR_frontusername, .HR_frontpassword  { border:5px solid #678698; color:#999999; font-size:14px; font-style:italic; height:25px; width:250px; padding: 2px 0 0 5px; margin: 10px 0 10px 0; border-radius:5px; }
+.HR_frontusername:hover, .HR_frontpassword:hover { box-shadow: 0px 0px 5px #8FBCDB; } 
+.hr_loginBtn { float:left; background:#447294; border-top:2px solid #8FBCDB; border-right:2px solid #8FBCDB; border-bottom:2px solid #294052; border-left:2px solid #294052; color:#FFF; font-size:14px; font-weight:600; height:35px; width:70px; margin-top:5px; }
+.hr_loginBtn:hover { box-shadow: -2px -1px 2px #666666; cursor:pointer; }
+.hr_footboard { background:#333; height:100px; width:100%; min-width:960px; position:relative; bottom:0; z-index:1; padding:0px; }
+#HR_frontfooter { font-family:Verdana, Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; text-align:center; padding-top:60px; font-weight:bold; }
+#HR_frontfooter span { font-size:10px; font-weight:normal; }
+
+/* registration */
+.hr_contentpaper { background:#FFF; box-shadow:0px 0px 2px #666; border-radius:5px; min-height:620px; margin:150px auto 20px auto; width:640px;  z-index:10; padding:10px; }
+.hr_contentpaper p { margin:20px 0 0 30px; }
+.hr_contentpaper label, p { color:#333333; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; padding-right:20px; text-decoration:none; }
+.hr_contentpaper a { color:#447294; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none; }
+.hr_contentpaper a:hover { text-decoration:underline; }
+.hr_submitBtn { background:#447294; border-top:2px solid #8FBCDB; border-right:2px solid #8FBCDB; border-bottom:2px solid #294052; border-left:2px solid #294052; color:#FFF; font-size:14px; font-weight:600; height:35px; min-width:80px; margin-top:5px; margin-right:20px; }
+.hr_submitBtn:hover { box-shadow: -2px -1px 2px #666666; cursor:pointer; }
+/* job CSS */
+.hr_app_header { background:#447294; border-bottom:1px solid #7C7C7C; height:100px; width:100%; position:absolute; top:0; z-index:2; padding:0px; }
+.HRNamelinkDropdown { background:0; height:20px; min-width:50px; right:360px; position:absolute; top:80px; z-index:100; }
+.HRNameLinkContainer { width:180px; position:relative; float:left; margin:0; padding-left:0px; }
+.HRNameLinkContainer a { font-family:Arial, Helvetica, sans-serif; color:#FFF; font-family:Arial, sans-serif; font-size:14px; font-weight:bold; text-decoration:none; }
+.HRNameLinkContainer a:hover { text-decoration:underline; }
+.HRArrowDown { background:0; color:#FFF; font-family:Arial, Helvetica, sans-serif; font-family:Arial, sans-serif; font-size:12px; text-decoration:none; text-align:center; margin-right:20px; float:right; }
+.HRArrowDown:hover, .arrowDownSelected { background:#C0C0C0; box-shadow: 2px 2px 1px #666; text-decoration:none; padding-bottom:6px; }
+.HRdropdown { background:#C0C0C0; border-bottom-left-radius:5px; border-bottom-right-radius:5px; box-shadow: 2px 2px 1px #666; height:50px; position:absolute; width:180px; top:21px; left:-20px; padding:7px 0 0 0;}
+.HRDropdownList { background:0; font-family:Arial, Helvetica, sans-serif; font-family:Arial, sans-serif; font-size:12px; font-weight:bold; height:20px; list-style-type:none; padding-left:20px; line-height:20px;}
+.HRDropdownList:hover { background:#F1F1F1; }
+.HRDropdownList a { color:#333333; text-decoration:none; }
+#HR_usermessage { height:20px; width:70px; position:absolute; right:280px; top:80px; z-index:101;  }
+#HR_usermessage a { font-family:Arial, Helvetica, sans-serif; color:#FFF; font-family:Arial, sans-serif; font-size:14px; font-weight:bold; text-decoration:none; }
+#HR_usermessage a:hover { text-decoration:underline; }
+/* the menu bar that contains view job and my job */
+.HRTabsContainer { background:0; height:38px; left:400px; position:absolute; top:60px; width:225px; z-index:50; }
+.hr_menubar_front { list-style-type:none; }
+.HRtab { background:#C0C0C0; border-bottom:2px solid #C0C0C0; border-top-left-radius:5px; border-top-right-radius:5px; color:#333333; float:left; font-family:Arial, Helvetica, sans-serif; font-family:Arial, sans-serif; font-size:14px; font-weight:600; height:39px; line-height:50px; margin-right:10px; width:90px; text-align:center; text-decoration:none; } /* note to ian when not selected */
+.HRtabSelected { background:#FFFFFF; border-bottom:2px solid #FFFFFF; border-top-left-radius:5px; border-top-right-radius:5px; color:#333333; float:left; font-family:Arial, Helvetica, sans-serif; font-family:Arial, sans-serif; font-size:14px; font-weight:600; height:39px; line-height:50px; margin-right:10px; width:90px; text-align:center; text-decoration:none; } /* note to ian when selected */
+/* the big white thing */
+.HRFindJobContainer { background:#FFFFFF; box-shadow:0px 0px 2px #666; min-height:1125px; width:820px; margin:0 auto 30px auto; z-index:70; padding-bottom:20px; } /* ian ipa-undisplay if selected ang myjobs and display if findjobs ang nakaselect. under ni siya HRtab menu list (the first one) */
+/* inside HRFindJobContainer: Search Job Pane and Job Postings */
+/*  CSS for Search Job Pane */
+.hr_search_jobs_div { background:#C0C0C0; height:50px; }
+#HRSearchkeyword { font-family:Arial, sans-serif; float:left; font-size:14px; font-weight:600; margin: 11px 0 0 30px; }
+#HRsearchinput { border: 1px solid #999999; color:#999999; font-size:14px; height:24px; width:275px; padding: 2px 0 0 3px; margin:0 0 0 15px; }
+#HRsearchbutton { background:#FDE57F; border-top:2px solid #FFDA47; border-right:2px solid #A58400; border-bottom:2px solid #A58400; border-left:2px solid #FFDA47; border-top-left-radius:5px; border-top-right-radius:5px; border-bottom-right-radius:5px; border-bottom-left-radius:5px; font-size:14px; font-weight:600; height:30px; width:140px; margin: 0 0 0 20px; }
+#HRsearchbutton:hover { box-shadow: -1px -1px 3px #333333; cursor:pointer; }
+#HR_whitespace { height:50px; width:820px; margin: 100px auto 0 auto; background:#FFF; position:relative; z-index:1; box-shadow:0px 0px 2px#666; }
+/* CSS for list of Job Postings */
+.hr_list_all_jobs { background:#FFFFFF; width:750px; margin: 30px auto 20px auto; }
+#HRjobtitle { font-family:Arial, sans-serif; font-weight:600; padding:10px 10px 0 10px; position:relative; }
+#HRjobtitle a:link { text-decoration:none; }
+#HRjobtitle a:visited { color:#0000FF; }
+#HRpostage { color:#333333; font-family:Tahoma, sans-serif; font-size:11px; padding:5px 10px 5px 10px; position:relative; text-align:left;}
+#HRjobdefinition { color:#333333; font-family:Tahoma, sans-serif; font-size:14px; padding:0 10px 10px 10px; position:relative; text-align:left; }
+#HRNum_Applicants { color:#333333; font-family:Tahoma, sans-serif; font-size:12px; padding:0 10px 10px 10px; position:relative; text-align:left; }
+#HR_lastofpost {   color:#333333; font-family:Tahoma, sans-serif; font-size:12px; padding:0 10px 10px 10px; position:relative; text-align:left; }
+.hr_view_job_box { border-r}
+/* edit profile */
+.hr_contentpaperlogged { background:#FFF; box-shadow:0px 0px 2px #666; border-radius:5px; min-height:620px; margin:200px auto 20px auto; width:820px;  z-index:10; padding:10px; }
+.hr_contentpaperlogged p { margin:20px 0 0 30px; }
+.hr_contentpaperlogged label, p { color:#333333; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; padding-right:20px; text-decoration:none; }
+.hr_contentpaperlogged a { color:#447294; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:14px; text-decoration:none; }
+.hr_contentpaperlogged a:hover { text-decoration:underline; }
+
+/* view profile */
+.hr_content_div { width:720px; min-height:520px; margin:auto; }
+.hr_content_div h3, h4 { color:#447294; font-family:Verdana, Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; }
+
+
+
+/* table*/
+table { margin:1em 0 0 2.5em; border:1px solid #ccc; font-size:12px; -moz-border-radius:5px; -webkit-border-radius:5px; width:690px;}
+table thead tr th {background:#e5e5e5;
+background: -moz-linear-gradient(bottom, #e5e5e5, #f2f2f2);
+/* Safari 5.1, Chrome 10+ */ 
+background: -webkit-linear-gradient(bottom, #e5e5e5, #f2f2f2);
+font-weight:bold;
+padding:.5em;
+}
+
+table tbody tr th {padding:.5em; background-color:#447294; border:none; }
+table tbody tr td {padding:.5em; color:#1d78aa; border:none; }
+table tbody tr:hover td.hoverTD {background:#f2f2f2; cursor:pointer;}
+table tbody tr td:first-child {padding-left:em;}
+table tbody tr td a:hover {text-decoration:none;}
+table tbody tr td span {color:#aa0d14;}
+table tbody tr.lastTR { padding:.5em; background-color:#8ce4f2; border:none;  }
+
+/*pagination*/
+#link_tag { margin: 1em 0 0 2em;  }
+#link_tag strong { float:left; border:0.5px solid #447294;  background-color:#447294; padding: 7px;  margin:0; }
+#link_tag a { float:left;border:0.5px solid #447294; background:white; padding: 7px; margin:0; }
+/*Message Center*/
+.HR_message_header { background:#e5e5e5; padding:1em; }
+
+/* forms */
+.hr_registration_box { width:500px; }
+.hr_registration_box input, .hr_registration_box select { float:right; width:200px; }
+
+/*ian*/
+.hr_hover_job_div:hover { background-color: #ecf3f9;}
+select.hr_month, select.hr_day, select.hr_year { width: 65px; margin: 0 5px 0 5px;  }
+.hr_added_skill_fieldset { width: 750px;  }
+p.hr_added_skill_confirmation { background-color:#5eb5f6; text-align:center; color:#000; margin-top:0.2em; padding:1em; border-radius:10px; }
+#hr_search_skill { margin:auto; width: 700px; margin-top:4em;  }
+input.search_skill {-moz-border-radius: 5px 5px; margin:0.5em 0 0.5em 0; border:1px solid #999; padding:1em; -webkit-border-radius:5px 5px; width:40em;}
+input#submitpost { height:45px; width:100px; }
+.hr_serps_applicants_table { margin:0; width:670px; }

@@ -1,0 +1,9 @@
+hr_personnel:HR_PERSONNEL
+hr_personnel_isLog:HR_PERSONNEL_ISLOG
+hr_personnel_type:HR_PERSONNEL_TYPE
+hr_personnel_name:HR_PERSONNEL_NAME
+app_username:APP_USERNAME
+app_username_isLog:APP_USERNAME_ISLOG
+app_fullname:APP_FULLNAME
+app_username_type:APP_USERNAME_TYPES
+app_username_id:APP_USERNAME_ID
